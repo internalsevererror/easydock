@@ -1,6 +1,6 @@
 # EasyDock
 
-- [ ] design frontend
+- [x] design frontend
 - [ ] implement frontend: flutter
 - [ ] design db in supabase
 	- [ ] add users
