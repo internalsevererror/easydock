@@ -153,6 +153,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
       final user = res.user;
       if (user == null) throw Exception("Signup failed");
+      await client.auth.signInWithPassword(
+        email: email.text.trim(),
+        password: password.text.trim(),
+      );
 
       // ✅ UPSERT prevents duplicate crash
       await client.from('profiles').upsert({
@@ -213,7 +217,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   decoration: const InputDecoration(labelText: "Password"),
                 ),
                 const SizedBox(height: 20),
-
                 ElevatedButton(
                   onPressed: loading ? null : register,
                   child: loading
