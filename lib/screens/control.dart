@@ -242,7 +242,7 @@ class _MapScreenState extends State<MapScreen> {
                       ),
                       ListTile(
                         leading: const Icon(Icons.directions_boat),
-                        title: const Text("My Boat"),
+                        title: const Text("My Boat[s]"),
                         onTap: () async {
                           await Navigator.push(
                             context,
@@ -337,7 +337,7 @@ class _MapScreenState extends State<MapScreen> {
             children: [
               TileLayer(
                 urlTemplate:
-                    "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                    "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png",
                 subdomains: const ['a', 'b', 'c', 'd'],
                 retinaMode: RetinaMode.isHighDensity(context),
               ),

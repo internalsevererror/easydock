@@ -47836,7 +47836,7 @@ A.axB.prototype={
 $0(){},
 $S:0}
 A.uk.prototype={
-M(a){var s=null,r=A.M6(s,B.a0d)
+M(a){var s=null,r=A.M6(s,B.a0e)
 return A.Eu(r,new A.cq(B.JH,A.ko(A.b([B.JY,B.iY,new A.U1(140,new A.Fw("assets/easy-dock-logo.svg",s,s,s,s),s,s)],t.E),B.aQ,B.aL,B.c9),s),s,s,s)}}
 A.Cw.prototype={
 am(){var s,r=A.aXs(null,null),q=t.H7,p=A.b([],q),o=A.b([],q),n=A.b([],q)
@@ -47906,7 +47906,7 @@ s.aS()
 s.tD()
 s.xl()
 s.tE()},
-M(a){var s,r,q,p,o,n,m,l=this,k=null,j="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",i=A.Y(a)
+M(a){var s,r,q,p,o,n,m,l=this,k=null,j="https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png",i=A.Y(a)
 i=A.q0(A.dI("EasyDock",k,k,k,A.iU(k,k,A.Y(a).ax.c,k,k,k,k,k,k,k,k,22,k,k,B.dP,k,k,!0,k,k,k,k,k,k,k,k),k,k),B.F,i.dx,k,140,k,B.fa,1/0)
 s=t.E
 r=A.b([],s)
@@ -47917,7 +47917,7 @@ if((p==null?k:p.r)==null)B.b.E(r,A.b([A.kK(B.KU,new A.awT(a),k,k,B.mt,k),A.kK(B.
 else{q=q.geD().c
 q=q==null?k:q.r
 q=q==null?k:q.z
-B.b.E(r,A.b([A.kK(B.KR,k,k,k,A.dI(q==null?"":q,k,k,k,k,k,k),k),A.kK(B.KN,new A.awV(l,a),k,k,B.a0a,k),A.kK(B.pn,new A.awW(l,a),k,k,B.a0i,k)],s))}i=A.wM(!0,A.ko(A.b([i,A.Oy(A.aFY(r,k,B.am),1),B.IW,A.f5(A.kK(B.KM,new A.awX(a),k,k,B.a0k,k),k,1/0)],s),B.aQ,B.aL,B.c9),B.am,!0)
+B.b.E(r,A.b([A.kK(B.KR,k,k,k,A.dI(q==null?"":q,k,k,k,k,k,k),k),A.kK(B.KN,new A.awV(l,a),k,k,B.a0a,k),A.kK(B.pn,new A.awW(l,a),k,k,B.a0d,k)],s))}i=A.wM(!0,A.ko(A.b([i,A.Oy(A.aFY(r,k,B.am),1),B.IW,A.f5(A.kK(B.KM,new A.awX(a),k,k,B.a0k,k),k,1/0)],s),B.aQ,B.aL,B.c9),B.am,!0)
 r=l.r
 q=A.bA(a,k,t.w).w
 p=A.h_(k,k,k,t.XQ,t.WG)
@@ -48090,7 +48090,7 @@ k=A.j(k==null?q:J.eu(k,"name"))
 s=n.ay.i(0,p)
 s=A.j(s==null?q:J.eu(s,"latitude"))
 r=n.ay.i(0,p)
-B.b.E(l,A.b([A.kK(q,q,q,A.dI("Anchor: "+k+" ("+s+", "+A.j(r==null?q:J.eu(r,"longitude"))+")",q,q,q,B.mq,q,q),B.a0f,q)],m))}m=n.a4E()
+B.b.E(l,A.b([A.kK(q,q,q,A.dI("Anchor: "+k+" ("+s+", "+A.j(r==null?q:J.eu(r,"longitude"))+")",q,q,q,B.mq,q,q),B.a0g,q)],m))}m=n.a4E()
 k=A.a2(m).h("a8<1,lJ>")
 n=A.a_(new A.a8(m,new A.awJ(n,a),k),k.h("az.E"))
 B.b.E(l,n)
@@ -48246,7 +48246,7 @@ s=s==null?null:J.bY(s)}this.a.f=s},
 $S:0}
 A.asD.prototype={
 $1(a){var s=null,r=this.b,q=this.c,p=t.E,o=this.a
-return new A.uq(B.a0e,A.ko(A.b([A.mQ(r,B.Ln,!1,s),A.mQ(q,B.Lm,!1,s)],p),B.aQ,B.aL,B.d9),A.b([A.aGB(B.a0h,new A.asB(o),s),A.a98(B.a0g,new A.asC(o,r,q))],p),s)},
+return new A.uq(B.a0f,A.ko(A.b([A.mQ(r,B.Ln,!1,s),A.mQ(q,B.Lm,!1,s)],p),B.aQ,B.aL,B.d9),A.b([A.aGB(B.a0i,new A.asB(o),s),A.a98(B.a0h,new A.asC(o,r,q))],p),s)},
 $S:332}
 A.asB.prototype={
 $0(){var s=this.a.c
@@ -104440,7 +104440,7 @@ B.oO=new A.qg(!1,!1,!1,!1)
 B.oP=new A.qg(!1,!1,!1,!0)
 B.kY=new A.OF(0,"tight")
 B.Bt=new A.q(!0,null,null,null,null,null,16,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a0c=new A.eh("EasyDock is a smart bouy docking management app that helps you find, reserve, and manage anchor points easily.\n\nVersion 0.0.5-alpha",null,B.Bt,null,null,null,null,null,null)
+B.a0c=new A.eh("EasyDock is a smart buoy docking management app that helps you find, reserve, and manage anchor points easily.\n\nVersion 0.0.5-alpha",null,B.Bt,null,null,null,null,null,null)
 B.aB=new A.BF(1,"opaque")
 B.Vk=new A.F8(B.a0c,null)
 B.JY=new A.Bc(1,B.kY,B.Vk,null)
@@ -106876,15 +106876,15 @@ B.Xf=new A.q(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.a09=new A.e4(B.Z_,B.XX,B.Z0,B.Zr,B.XE,B.XM,B.Yf,B.Zm,B.Yr,B.ZN,B.X8,B.Xq,B.ZK,B.a_4,B.Xf)
 B.a0a=new A.eh("Logout",null,null,null,null,null,null,null,null)
 B.a0b=new A.eh("Select time",null,null,null,null,null,null,null,null)
+B.a0d=new A.eh("My Boat[s]",null,null,null,null,null,null,null,null)
 B.ms=new A.eh("Register",null,null,null,null,null,null,null,null)
-B.a0d=new A.eh("About EasyDock",null,null,null,null,null,null,null,null)
-B.a0e=new A.eh("Add boat",null,null,null,null,null,null,null,null)
+B.a0e=new A.eh("About EasyDock",null,null,null,null,null,null,null,null)
+B.a0f=new A.eh("Add boat",null,null,null,null,null,null,null,null)
 B.mt=new A.eh("Login",null,null,null,null,null,null,null,null)
 B.Bs=new A.q(!0,B.k,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a0f=new A.eh("Active Boat Status",null,B.Bs,null,null,null,null,null,null)
-B.a0g=new A.eh("Add",null,null,null,null,null,null,null,null)
-B.a0h=new A.eh("Cancel",null,null,null,null,null,null,null,null)
-B.a0i=new A.eh("My Boat",null,null,null,null,null,null,null,null)
+B.a0g=new A.eh("Active Boat Status",null,B.Bs,null,null,null,null,null,null)
+B.a0h=new A.eh("Add",null,null,null,null,null,null,null,null)
+B.a0i=new A.eh("Cancel",null,null,null,null,null,null,null,null)
 B.a0k=new A.eh("About",null,null,null,null,null,null,null,null)
 B.a0l=new A.eh("Center location",null,B.Bs,null,null,null,null,null,null)
 B.a0m=new A.eh("My Boats",null,null,null,null,null,null,null,null)

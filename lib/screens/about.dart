@@ -38,7 +38,7 @@ class AboutScreen extends StatelessWidget {
             const Expanded(
               child: SingleChildScrollView(
                 child: Text(
-                  "EasyDock is a smart bouy docking management app that helps you find, reserve, and manage anchor points easily.\n\nVersion 0.0.5-alpha",
+                  "EasyDock is a smart buoy docking management app that helps you find, reserve, and manage anchor points easily.\n\nVersion 0.0.5-alpha",
                   style: TextStyle(fontSize: 16),
                 ),
               ),
